@@ -1,0 +1,35 @@
+.customInput {
+  background: #ebebeb;
+  border: none;
+  border-radius: 10px;
+  padding: 7px;
+  margin: 5px 0;
+  font-size: 16px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  &::placeholder {
+    color: rgb(155, 155, 155);
+  }
+}
+.error {
+  outline: 1px solid rgb(219 6 6);
+  outline-offset: -1px;
+}
+.todo-empty {
+  background-color: rgb(255 246 167);
+  padding: 10px;
+  border-radius: 15px;
+  width: 300px;
+  overflow: auto;
+  height: fit-content;
+  max-height: 550px;
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+.todo-items {
+  box-shadow: -6px 3px 0px 1px #f6d791, 0px 0px 0px 0px rgb(0 0 0 / 14%),
+    0px 0px 0px 0px rgb(0 0 0 / 12%);
+  word-break: break-all;
+}
+.done {
+  text-decoration: line-through rgb(255, 78, 78);
+  transition: all 0.5s;
+}
